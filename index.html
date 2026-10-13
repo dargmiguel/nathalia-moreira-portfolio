@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f0e8" />
+    <meta name="description" content="Nathália Moreira — designer UX/UI com um perfil multidisciplinar e aberta a novas possibilidades." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nathália Moreira — UX/UI e outras possibilidades" />
+    <meta property="og:description" content="Um olhar de UX/UI, uma atuação multidisciplinar e abertura para novos caminhos." />
+    <meta property="og:locale" content="pt_BR" />
+    <title>Nathália Moreira — UX/UI e outras possibilidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+    <header class="site-header">
+      <a class="signature" href="#inicio" aria-label="Nathália Moreira, início"><span class="signature-mark" aria-hidden="true">n.</span><span data-name></span></a>
+      <nav aria-label="Navegação principal">
+        <a href="#trabalhos">Trabalhos</a>
+        <a href="#sobre">Sobre</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-note"><span class="status-dot" aria-hidden="true"></span><span data-hero-eyebrow></span></div>
+        <div class="hero-title-wrap">
+          <p class="hero-side-note">Um perfil com<br />mais de uma camada <span aria-hidden="true">↘</span></p>
+          <h1 id="hero-title"></h1>
+          <div class="hero-stamp" aria-label="Aberta a novos caminhos"><span>ABERTA A</span><b>NOVOS<br />CAMINHOS</b><span aria-hidden="true">✳</span></div>
+        </div>
+        <div class="hero-bottom">
+          <p class="hero-intro" data-hero-intro></p>
+          <div class="hero-tags" data-hero-tags aria-label="Áreas de interesse"></div>
+          <a class="round-link" href="#trabalhos" aria-label="Conheça minha atuação"><span aria-hidden="true">↓</span></a>
+        </div>
+        <span class="hero-scribble" aria-hidden="true">✳</span>
+      </section>
+
+      <section class="work-section section-pad" id="trabalhos" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="index-mark">✳</span> Um perfil em movimento</p>
+          <h2 id="work-title" data-work-title></h2>
+          <p class="section-intro" data-work-intro></p>
+        </div>
+        <article class="craft-feature" aria-labelledby="craft-title">
+          <div class="craft-art" aria-label="Composição tipográfica inspirada em um caderno de ideias do Clube Craft" role="img">
+            <span class="art-tape" aria-hidden="true"></span>
+            <span class="art-small">ANOTAÇÕES<br />EM ANDAMENTO</span>
+            <span class="art-name" data-club-name></span>
+            <span class="art-doodle" aria-hidden="true">✳</span>
+            <span class="art-caption">um espaço para<br />fazer, aprender, participar</span>
+            <span class="art-index">CADERNO &nbsp;·&nbsp; 01</span>
+          </div>
+          <div class="craft-copy">
+            <p class="eyebrow"><span data-club-category></span><span class="copy-dot" aria-hidden="true">●</span> Fora do mercado formal</p>
+            <h3 id="craft-title">Um lado do meu trabalho que também merece espaço.</h3>
+            <p data-club-description></p>
+            <div class="craft-note"><span aria-hidden="true">↳</span><span data-club-note></span></div>
+          </div>
+        </article>
+        <p class="work-aside"><span aria-hidden="true">✳</span> UX/UI é meu ponto de partida. Não precisa ser o limite.</p>
+      </section>
+
+      <section class="about-section section-pad" id="sobre" aria-labelledby="about-title">
+        <div class="about-label"><span class="eyebrow">Prazer, sou eu</span><span class="about-spark" aria-hidden="true">✳</span></div>
+        <div class="about-copy">
+          <h2 id="about-title" data-about-title></h2>
+          <div class="about-paragraphs" data-about-paragraphs></div>
+          <p class="pull-quote" data-pull-quote></p>
+        </div>
+        <div class="about-index" aria-hidden="true">N<span>.</span>M</div>
+      </section>
+
+      <section class="skills-section section-pad" aria-labelledby="skills-title">
+        <div class="skills-heading"><p class="eyebrow">O que levo comigo</p><h2 id="skills-title">Competências<br />& possibilidades</h2></div>
+        <ul class="skills-list" data-skills></ul>
+        <p class="skills-footnote">Uma combinação em construção — e aberta ao que vem por aí.</p>
+      </section>
+
+      <section class="contact-section" id="contato" aria-labelledby="contact-title">
+        <div class="contact-paper">
+          <span class="contact-decoration" aria-hidden="true">✳</span>
+          <p class="eyebrow">Uma próxima conversa?</p>
+          <h2 id="contact-title">Vamos ver<br /><em>onde isso vai dar.</em></h2>
+          <p class="contact-copy" data-contact-prompt></p>
+          <button class="contact-button" type="button" data-open-contact>Me chama para conversar <span aria-hidden="true">↗</span></button>
+          <span class="paper-edge" aria-hidden="true"></span>
+        </div>
+        <footer class="site-footer"><a href="#inicio" class="footer-name" data-name></a><span data-footer-note></span><span>© <span data-year></span> Nathália Moreira</span></footer>
+      </section>
+    </main>
+
+    <dialog class="contact-dialog" aria-labelledby="dialog-title" data-contact-dialog>
+      <div class="dialog-paper">
+        <button class="dialog-close" type="button" aria-label="Fechar cartão de contato" data-close-contact>×</button>
+        <p class="eyebrow">Um cartão para você</p>
+        <h2 id="dialog-title">Vamos<br /><em>conversar?</em></h2>
+        <p>Me encontre por aqui:</p>
+        <a class="linkedin-link" data-linkedin target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+        <button class="copy-link" type="button" data-copy-link>Copiar link do LinkedIn <span aria-hidden="true">⧉</span></button>
+        <span class="copy-feedback" aria-live="polite" data-copy-feedback></span>
+      </div>
+    </dialog>
+  </body>
+</html>
