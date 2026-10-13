@@ -40,3 +40,10 @@
 .project-card:nth-child(2) .project-image img{object-fit:contain}
 .site-header nav a{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center}
 .project-link,.copy-link{min-height:44px;display:inline-flex;align-items:center}
+.hero-nameplate{top:4%;transform:translateX(-50%) rotate(-2deg);width:max-content;max-width:90%;height:auto;min-height:0;padding:0;background:transparent;color:var(--ink);border:0;box-shadow:none;gap:0;white-space:nowrap}
+.hero-nameplate:before{display:none}
+.nameplate-top{font:22px/1 var(--script);letter-spacing:0}
+.nameplate-name{max-width:none;margin:3px 0 1px;font:600 30px/1 var(--script);color:var(--accent-dark)}
+.nameplate-bottom{max-width:none;font:8px/1.4 var(--mono);letter-spacing:.045em;color:var(--muted)}
+@media(max-width:760px){.hero-nameplate{top:5%}.nameplate-top{font-size:20px}.nameplate-name{font-size:27px}}
+@media(max-width:430px){.hero-nameplate{top:5%;max-width:100%}.nameplate-top{font-size:18px}.nameplate-name{font-size:24px}.nameplate-bottom{font-size:7px}}

@@ -7,7 +7,7 @@ export const portfolio = {
   hero: {
     eyebrow: "Designer UX/UI · perfil multidisciplinar",
     headline: "PORTFÓLIO",
-    intro: "Sou Nathália, designer UX/UI. Também estou aberta a oportunidades em outras áreas.",
+    intro: "Além de UX/UI, mostro minha atuação multitarefa fora do mercado formal.",
     tags: ["UX/UI", "Clube Craft", "aberta a outras áreas"]
   },
   work: {

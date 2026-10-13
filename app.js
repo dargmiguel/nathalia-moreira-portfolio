@@ -1,4 +1,4 @@
-import { portfolio } from './content.js';
+import { portfolio } from './content.js?v=5';
 
 const setText = (selector, value) => {
   document.querySelectorAll(selector).forEach((node) => {
