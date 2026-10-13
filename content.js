@@ -53,9 +53,24 @@ export const portfolio = {
     ],
     club: {
       name: "Clube Craft",
-      category: "Atuação multidisciplinar",
-      description: "Minha participação no Clube Craft reúne diferentes frentes. É um recorte importante para mostrar o que faço fora do mercado formal, além de UX/UI.",
-      note: "Mais de uma frente.\nAlém de um único título."
+      category: "Co-criação com Hele Carmona",
+      description: "Desde janeiro, venho criando e aprendendo no Clube Craft em parceria com a Hele Carmona. O projeto nasceu do nosso interesse por hobbies manuais e da vontade de reunir pessoas para experimentar atividades, se conhecer e conversar.",
+      photos: [
+        {
+          src: "assets/clube-craft/encontro.webp",
+          alt: "Participantes reunidas em uma cafeteria, criando juntas durante um encontro do Clube Craft.",
+          caption: "Um encontro do Clube Craft"
+        },
+        {
+          src: "assets/clube-craft/cartao-de-atividades.webp",
+          alt: "Cartão do Clube Craft com selos de atividades: desenho livre, pintura em cerâmica, bordado, aquarela e colagem.",
+          caption: "O cartão de atividades manuais"
+        }
+      ],
+      activities: ["Aquarela", "Pintura em cerâmica", "Colagem", "Bordado"],
+      locations: "Tijuca · Copacabana · Botafogo · Lapa",
+      note: "Para quem passa muito tempo em frente ao computador, criar com as mãos e trocar ideias ao vivo faz diferença.",
+      instagram: "https://www.instagram.com/clubecraft.co/"
     }
   },
   about: {

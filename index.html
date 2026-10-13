@@ -13,8 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Caveat:wght@500;600&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css?v=5" />
-    <script type="module" src="app.js?v=5"></script>
+    <link rel="stylesheet" href="style.css?v=8" />
+    <script type="module" src="app.js?v=8"></script>
   </head>
   <body>
     <a class="skip-link" href="#main">Pular para o conteúdo</a>
@@ -64,19 +64,15 @@
         <p class="projects-label">alguns projetos <span aria-hidden="true">✳</span></p>
         <div class="projects-grid" data-projects aria-label="Projetos selecionados"></div>
         <article class="craft-feature" aria-labelledby="craft-title">
-          <div class="craft-art" aria-label="Composição gráfica tipográfica do Clube Craft" role="img">
-            <span class="art-tape" aria-hidden="true"></span>
-            <span class="art-small">UM RECORTE<br />DA MINHA ATUAÇÃO</span>
-            <span class="art-name" data-club-name></span>
-            <span class="art-monogram" aria-hidden="true">n.</span>
-            <span class="art-caption">multitarefas<br />fora do mercado formal</span>
-            <span class="art-index">UX/UI &nbsp;·&nbsp; OUTRAS FRENTES</span>
-          </div>
+          <div class="craft-gallery" data-craft-gallery role="group" aria-label="Fotos de encontros e atividades do Clube Craft"></div>
           <div class="craft-copy">
-            <p class="eyebrow"><span data-club-category></span><span class="copy-dot" aria-hidden="true">✳</span> Clube Craft</p>
-            <h3 id="craft-title">Um lado do meu trabalho que também merece espaço.</h3>
+            <p class="eyebrow"><span data-club-category></span><span class="copy-dot" aria-hidden="true">✳</span><span data-club-name></span></p>
+            <h3 id="craft-title">Criar com as mãos, conhecer pessoas, sair da tela.</h3>
             <p data-club-description></p>
+            <ul class="craft-activities" data-craft-activities aria-label="Atividades que já experimentamos"></ul>
+            <p class="craft-locations"><span>Encontros no Rio de Janeiro</span><br /><span data-club-locations></span></p>
             <div class="craft-note"><span aria-hidden="true">↳</span><span data-club-note></span></div>
+            <a class="craft-instagram" data-craft-instagram target="_blank" rel="noopener noreferrer">Acompanhe o Clube Craft <span aria-hidden="true">↗</span></a>
           </div>
         </article>
       </section>

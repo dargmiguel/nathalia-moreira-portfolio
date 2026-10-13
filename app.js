@@ -1,4 +1,4 @@
-import { portfolio } from './content.js?v=5';
+import { portfolio } from './content.js?v=8';
 
 const setText = (selector, value) => {
   document.querySelectorAll(selector).forEach((node) => {
@@ -15,6 +15,32 @@ setText('[data-club-name]', portfolio.work.club.name);
 setText('[data-club-category]', portfolio.work.club.category);
 setText('[data-club-description]', portfolio.work.club.description);
 setText('[data-club-note]', portfolio.work.club.note);
+setText('[data-club-locations]', portfolio.work.club.locations);
+document.querySelector('[data-craft-instagram]').href = portfolio.work.club.instagram;
+
+const craftGallery = document.querySelector('[data-craft-gallery]');
+portfolio.work.club.photos.forEach((photo, index) => {
+  const figure = document.createElement('figure');
+  figure.className = `craft-photo craft-photo-${index + 1}`;
+  const image = document.createElement('img');
+  image.src = photo.src;
+  image.alt = photo.alt;
+  image.width = 1280;
+  image.height = 852;
+  image.loading = 'lazy';
+  image.decoding = 'async';
+  const caption = document.createElement('figcaption');
+  caption.textContent = photo.caption;
+  figure.append(image, caption);
+  craftGallery.append(figure);
+});
+
+const craftActivities = document.querySelector('[data-craft-activities]');
+portfolio.work.club.activities.forEach((activity) => {
+  const item = document.createElement('li');
+  item.textContent = activity;
+  craftActivities.append(item);
+});
 setText('[data-about-title]', portfolio.about.title);
 setText('[data-pull-quote]', portfolio.about.pullQuote);
 setText('[data-contact-prompt]', portfolio.contactPrompt);
