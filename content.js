@@ -5,7 +5,6 @@ export const portfolio = {
   linkedin: "https://www.linkedin.com/in/nath%C3%A1lia-moreira/",
   email: "",
   hero: {
-    eyebrow: "Designer UX/UI · perfil multidisciplinar",
     headline: "PORTFÓLIO",
     intro: "Além de UX/UI, mostro minha atuação multitarefa fora do mercado formal.",
     tags: ["UX/UI", "Clube Craft", "aberta a outras áreas"]

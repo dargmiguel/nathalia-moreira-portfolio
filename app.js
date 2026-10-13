@@ -7,7 +7,6 @@ const setText = (selector, value) => {
 };
 
 setText('[data-name]', portfolio.name);
-setText('[data-hero-eyebrow]', portfolio.hero.eyebrow);
 setText('[data-hero-intro]', portfolio.hero.intro);
 setText('[data-work-title]', portfolio.work.title);
 setText('[data-work-intro]', portfolio.work.intro);
