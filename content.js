@@ -68,7 +68,6 @@ export const portfolio = {
         }
       ],
       activities: ["Aquarela", "Pintura em cerâmica", "Colagem", "Bordado"],
-      locations: "Tijuca · Copacabana · Botafogo · Lapa",
       note: "Para quem passa muito tempo em frente ao computador, criar com as mãos e trocar ideias ao vivo faz diferença.",
       instagram: "https://www.instagram.com/clubecraft.co/"
     }

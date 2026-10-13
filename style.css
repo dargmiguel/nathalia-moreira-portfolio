@@ -58,8 +58,6 @@
 .craft-photo figcaption{padding:7px 4px 2px;font:17px/1 var(--script);color:#514a43}
 .craft-activities{list-style:none;padding:0;margin:19px 0;display:flex;gap:7px;flex-wrap:wrap}
 .craft-activities li{border:1px solid var(--line);padding:5px 9px;font:10px var(--mono);background:rgba(255,255,255,.4)}
-.craft-locations{margin:0;color:var(--muted);font:11px/1.8 var(--mono)}
-.craft-locations span:first-child{color:var(--ink);text-transform:uppercase;font-size:9px;letter-spacing:.04em}
 .craft-instagram{min-height:44px;margin-top:20px;display:inline-flex;align-items:center;gap:14px;font:10px var(--mono);text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--ink)}
 .craft-instagram:hover{color:var(--accent-dark);border-color:var(--accent-dark)}
 @media(max-width:760px){.craft-feature{grid-template-columns:1fr;gap:25px}.craft-gallery{grid-column:1;grid-row:1;width:min(100%,500px);height:440px;justify-self:center}.craft-copy{grid-column:1;grid-row:2;max-width:580px}}

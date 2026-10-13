@@ -1,4 +1,4 @@
-import { portfolio } from './content.js?v=8';
+import { portfolio } from './content.js?v=9';
 
 const setText = (selector, value) => {
   document.querySelectorAll(selector).forEach((node) => {
@@ -15,7 +15,6 @@ setText('[data-club-name]', portfolio.work.club.name);
 setText('[data-club-category]', portfolio.work.club.category);
 setText('[data-club-description]', portfolio.work.club.description);
 setText('[data-club-note]', portfolio.work.club.note);
-setText('[data-club-locations]', portfolio.work.club.locations);
 document.querySelector('[data-craft-instagram]').href = portfolio.work.club.instagram;
 
 const craftGallery = document.querySelector('[data-craft-gallery]');
