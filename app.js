@@ -140,7 +140,7 @@ copyButton.addEventListener('click', async () => {
   }
 });
 
-const revealTargets = document.querySelectorAll('.section-heading, .craft-feature, .work-aside, .about-copy, .skills-list, .contact-paper');
+const revealTargets = document.querySelectorAll('.section-heading, .project-card, .craft-feature, .about-copy, .skills-list, .contact-card');
 if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
   const observer = new IntersectionObserver((entries, currentObserver) => {
     entries.forEach((entry) => {
