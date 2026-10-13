@@ -5,30 +5,30 @@ export const portfolio = {
   linkedin: "https://www.linkedin.com/in/nath%C3%A1lia-moreira/",
   email: "",
   hero: {
-    eyebrow: "UX/UI, curiosidade & outras possibilidades",
-    headline: "Desenho experiências.\nTambém gosto de\nexplorar caminhos.",
-    intro: "Sou Nathália Moreira, designer UX/UI. Quero criar experiências com intenção — e estou aberta a levar meu olhar para outras áreas também.",
-    tags: ["UX/UI", "multidisciplinar", "aberta a novas áreas"]
+    eyebrow: "Designer UX/UI · perfil multidisciplinar",
+    headline: "PORTFÓLIO",
+    intro: "Sou Nathália, designer UX/UI. Também estou aberta a oportunidades em outras áreas.",
+    tags: ["UX/UI", "Clube Craft", "aberta a outras áreas"]
   },
   work: {
-    title: "Além de um único título",
-    intro: "Minha atuação não acontece só dentro de uma descrição de cargo. O Clube Craft é parte dessa história.",
+    title: "Um pouco do que faço",
+    intro: "UX/UI é meu campo de atuação. Fora do mercado de trabalho, também tenho uma atuação multitarefa — e o Clube Craft faz parte desse percurso.",
     club: {
       name: "Clube Craft",
       category: "Atuação multidisciplinar",
-      description: "Fora do mercado formal, minha participação no Clube Craft reúne diferentes frentes. É um recorte importante para mostrar o que faço além de UX/UI e como minha atuação passa por mais de um tipo de tarefa.",
-      note: "Mais de uma frente.\nUma atuação para além de UX/UI."
+      description: "Minha participação no Clube Craft reúne diferentes frentes. É um recorte importante para mostrar o que faço fora do mercado formal, além de UX/UI.",
+      note: "Mais de uma frente.\nAlém de um único título."
     }
   },
   about: {
     title: "Um pouco de contexto",
     paragraphs: [
-      "Meu ponto de partida é UX/UI, mas não quero que um rótulo limite as oportunidades que posso explorar.",
+      "Meu campo de atuação é UX/UI, mas não quero que um rótulo limite as oportunidades que posso explorar.",
       "Também tenho uma atuação multitarefa fora do mercado de trabalho. Quero apresentar essa experiência com mais clareza, começando pelo que faço no Clube Craft."
     ],
     pullQuote: "UX/UI é meu ponto de partida — e também estou aberta a outras áreas."
   },
-  skills: ["UX/UI design", "Atuação multidisciplinar", "Abertura para novas áreas"],
+  skills: ["UX/UI design", "Atuação multidisciplinar no Clube Craft", "Abertura para outras áreas"],
   contactPrompt: "Tem uma oportunidade ou um projeto em mente? Vamos conversar.",
-  footerNote: "Feito com intenção e espaço para possibilidades."
+  footerNote: "Nathália Moreira · UX/UI e outras possibilidades"
 };
