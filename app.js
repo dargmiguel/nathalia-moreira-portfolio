@@ -21,6 +21,63 @@ setText('[data-contact-prompt]', portfolio.contactPrompt);
 setText('[data-footer-note]', portfolio.footerNote);
 setText('[data-year]', String(new Date().getFullYear()));
 
+const projects = document.querySelector('[data-projects]');
+portfolio.work.projects.forEach((project) => {
+  const article = document.createElement('article');
+  article.className = 'project-card';
+
+  const imageLink = document.createElement('a');
+  imageLink.className = 'project-image';
+  imageLink.href = project.link;
+  imageLink.target = '_blank';
+  imageLink.rel = 'noopener noreferrer';
+  imageLink.setAttribute('aria-label', `${project.title} — abrir projeto completo em nova aba`);
+
+  const image = document.createElement('img');
+  image.src = project.image;
+  image.alt = project.imageAlt;
+  image.width = project.imageWidth;
+  image.height = project.imageHeight;
+  image.loading = 'lazy';
+  image.decoding = 'async';
+  imageLink.append(image);
+
+  const imageArrow = document.createElement('span');
+  imageArrow.className = 'project-image-arrow';
+  imageArrow.setAttribute('aria-hidden', 'true');
+  imageArrow.textContent = '↗';
+  imageLink.append(imageArrow);
+
+  const copy = document.createElement('div');
+  copy.className = 'project-copy';
+  const meta = document.createElement('p');
+  meta.className = 'project-meta';
+  meta.textContent = `${project.category} · ${project.year}`;
+  const title = document.createElement('h3');
+  const titleLink = document.createElement('a');
+  titleLink.href = project.link;
+  titleLink.target = '_blank';
+  titleLink.rel = 'noopener noreferrer';
+  titleLink.textContent = project.title;
+  title.append(titleLink);
+  const description = document.createElement('p');
+  description.className = 'project-description';
+  description.textContent = project.description;
+  const details = document.createElement('a');
+  details.className = 'project-link';
+  details.href = project.link;
+  details.target = '_blank';
+  details.rel = 'noopener noreferrer';
+  details.append(document.createTextNode(project.linkLabel));
+  const arrow = document.createElement('span');
+  arrow.setAttribute('aria-hidden', 'true');
+  arrow.textContent = ' ↗';
+  details.append(arrow);
+  copy.append(meta, title, description, details);
+  article.append(imageLink, copy);
+  projects.append(article);
+});
+
 const heroTitle = document.querySelector('#hero-title');
 portfolio.hero.headline.split('\n').forEach((line, index, lines) => {
   const span = document.createElement('span');
